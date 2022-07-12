@@ -18,6 +18,7 @@ config("libintl_config") {
     "-DHAVE_CONFIG_H",
     "-Wno-sign-compare",
     "-Wno-error",
+    "-Wno-unused-const-variable",
     "-DLOCALE_ALIAS_PATH=\"\"",
     "-DLOCALEDIR=\"\"",
     "-DLIBDIR=\"\"",
