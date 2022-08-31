@@ -75,7 +75,7 @@ ohos_source_set("gettext_dynamic") {
   ]
 }
 
-ohos_shared_library("libintl") {
+ohos_shared_library("libgettext") {
   deps = [ ":gettext_dynamic" ]
   part_name = "gettext"
   subsystem_name = "thirdparty"
