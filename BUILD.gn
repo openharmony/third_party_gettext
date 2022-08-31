@@ -77,6 +77,6 @@ ohos_source_set("gettext_dynamic") {
 
 ohos_shared_library("libintl") {
   deps = [ ":gettext_dynamic" ]
-  part_name = "multimedia_player_framework"
-  subsystem_name = "multimedia"
+  part_name = "gettext"
+  subsystem_name = "thirdparty"
 }
